@@ -66,6 +66,7 @@ int main()
             case 4:
                 input();
                 cout << "Hasil Pembagiannya adalah = " << pembagian (a, b) << endl;
+                break;
 
             case 5:
                 break;
