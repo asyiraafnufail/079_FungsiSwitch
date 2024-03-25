@@ -45,5 +45,34 @@ int main()
         cout << "5. Exit" << endl;
         cout << "Masukkan pilihan sesuai angka diatas : ";
         cin >> pilihan;
+
+        switch (pilihan)
+        {
+            case 1:
+                input();
+                cout << "Hasil Penjumlahannya adalah = " << penjumlahan (a, b) << endl;
+                break;
+
+            case 2:
+                input();
+                cout << "Hasil Pengurangannya adalah = " << pengurangan (a, b) << endl;
+                break;
+
+            case 3:
+                input();
+                cout << "Hasil Perkaliannya adalah = " << perkalian (a, b) << endl;
+                break;
+
+            case 4:
+                input();
+                cout << "Hasil Pembagiannya adalah = " << pembagian (a, b) << endl;
+
+            case 5:
+                break;
+
+            default:
+                cout << "Pilihannya ga ada ganteng" << endl;
+                break;
+        }
     }
 }
