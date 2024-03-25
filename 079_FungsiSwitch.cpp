@@ -74,5 +74,5 @@ int main()
                 cout << "Pilihannya ga ada ganteng" << endl;
                 break;
         }
-    }
+    } while (pilihan != 5);
 }
