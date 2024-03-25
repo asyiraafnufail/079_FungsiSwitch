@@ -51,21 +51,25 @@ int main()
             case 1:
                 input();
                 cout << "Hasil Penjumlahannya adalah = " << penjumlahan (a, b) << endl;
+                system("pause");
                 break;
 
             case 2:
                 input();
                 cout << "Hasil Pengurangannya adalah = " << pengurangan (a, b) << endl;
+                system("pause");
                 break;
 
             case 3:
                 input();
                 cout << "Hasil Perkaliannya adalah = " << perkalian (a, b) << endl;
+                system("pause");
                 break;
 
             case 4:
                 input();
                 cout << "Hasil Pembagiannya adalah = " << pembagian (a, b) << endl;
+                system("pause");
                 break;
 
             case 5:
@@ -73,7 +77,7 @@ int main()
 
             default:
                 cout << "Pilihannya ga ada ganteng" << endl;
-                break;
+                
         }
     } while (pilihan != 5);
 }
